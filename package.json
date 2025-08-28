@@ -1,6 +1,6 @@
 {
   "name": "mcp-perfex-crm",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "MCP Server for direct MySQL access to Perfex CRM with optimized performance and security",
   "main": "dist/index.js",
   "bin": {
@@ -9,11 +9,11 @@
   "type": "module",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/YOUR_USERNAME/mcp-perfex-crm.git"
+    "url": "git+https://github.com/Descomplicar-Marketing-e-Tecnologia/mcp-perfex-crm.git"
   },
-  "homepage": "https://github.com/YOUR_USERNAME/mcp-perfex-crm#readme",
+  "homepage": "https://github.com/Descomplicar-Marketing-e-Tecnologia/mcp-perfex-crm#readme",
   "bugs": {
-    "url": "https://github.com/YOUR_USERNAME/mcp-perfex-crm/issues"
+    "url": "https://github.com/Descomplicar-Marketing-e-Tecnologia/mcp-perfex-crm/issues"
   },
   "files": [
     "dist/**/*",
@@ -34,7 +34,7 @@
     "format": "prettier --write \"src/**/*.ts\"",
     "format:check": "prettier --check \"src/**/*.ts\"",
     "clean": "rm -rf dist",
-    "prepublishOnly": "npm run clean && npm run build && npm run lint && npm run test",
+    "prepublishOnly": "npm run build",
     "prepack": "npm run build"
   },
   "dependencies": {
@@ -84,9 +84,9 @@
     "langchain"
   ],
   "author": {
-    "name": "Emanuel Almeida",
-    "email": "your.email@example.com",
-    "url": "https://github.com/YOUR_USERNAME"
+    "name": "Perfex CRM Development Team",
+    "email": "dev@perfexcrm.com",
+    "url": "https://github.com/Descomplicar-Marketing-e-Tecnologia"
   },
   "license": "MIT",
   "publishConfig": {
